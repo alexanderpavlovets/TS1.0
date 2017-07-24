@@ -1,8 +1,8 @@
 {
-  "name": "startit-movie-finder",
+  "name": "ts-learning-project",
   "version": "0.0.1",
   "private": true,
-  "description": "Demonstration project for students. Feburary 16",
+  "description": "My own code on TS, maybe it will become a framework in the future",
   "scripts": {
     "postinstall": "webdriver-manager update",
     "pretest": "npm run tsc",
