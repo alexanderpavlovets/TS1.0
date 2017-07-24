@@ -53,5 +53,6 @@ let objForExample = {
     title: 'Title',
     text: 'Text'
 }
-// example of usage: printAnObject(objForExample)
+// example of usage: 
+printAnObject(objForExample)
 
