@@ -10,3 +10,4 @@ According to gitignore file - no .js .map.js files are in the repo
 TODO list:
 - learn about npm - what is package, why protractor is package, how to configure it 
 - learn how to create ReadMe structure for GitHub. Rewrite this file 
+- import and export. Modules in general. 
