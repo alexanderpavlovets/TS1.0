@@ -15,6 +15,7 @@
     "@types/node": "^7.0.18",
     "@types/jasmine": "2.5.35",
     "typescript": "^2.3.2",
-    "protractor": "^5.1.1"
+    "protractor": "^5.1.1",
+    "pg-promise": "^6.3.6"
   }
 }

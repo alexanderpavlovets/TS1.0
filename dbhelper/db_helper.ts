@@ -23,7 +23,6 @@ async function get(id){
     console.log(a[0].name)
     console.log("Hi there - i am after the request")
     pgp.end()
-
 }
 
-//get(2564)
+get(2564)
