@@ -10,6 +10,7 @@
 * To compile the project during your work, run `npm run tsc` manually
 * Files are compiled automatically before `npm test`
 * According to gitignore file - no .js .map.js files are in the repo
+* To hide all compilled .js and .map.js files in VSCode, please read this [topic](https://stackoverflow.com/questions/31587949/hide-js-map-files-in-visual-studio-code)
 
 ### ToDo list
 - learn about npm - what is package, why protractor is package, how to configure it 
