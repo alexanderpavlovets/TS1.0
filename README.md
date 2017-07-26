@@ -13,8 +13,9 @@
 * To hide all compilled .js and .map.js files in VSCode, please read this [topic](https://stackoverflow.com/questions/31587949/hide-js-map-files-in-visual-studio-code)
 
 ### ToDo list
-- learn about npm - what is package, why protractor is package, how to configure it 
-- Connect a reported to the lib 
-- Add functionality to read a .csv files
+- learn about npm - what is package, how to make my helpers to be packages, for correct import of them (not with relative path)
+- Connect a reported to the lib
+- Refactor of DB and CSV helpers - rewrite for classes, as they should be. 
+- Done: Add functionality to read a .csv files
 - Done: learn how to create ReadMe structure for GitHub. Rewrite this file 
 - Done: import and export. Modules in general. 
