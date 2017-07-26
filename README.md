@@ -15,5 +15,5 @@
 - learn about npm - what is package, why protractor is package, how to configure it 
 - Connect a reported to the lib 
 - Add functionality to read a .csv files
-+ learn how to create ReadMe structure for GitHub. Rewrite this file 
-+ import and export. Modules in general. 
+- Done: learn how to create ReadMe structure for GitHub. Rewrite this file 
+- Done: import and export. Modules in general. 
