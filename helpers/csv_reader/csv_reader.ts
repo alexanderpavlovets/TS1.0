@@ -1,6 +1,6 @@
 import * as fs from 'fs'
 
-let stringFromTable = fs.readFileSync('../table.csv', 'utf8') //reads data from csv and gives a string
+let stringFromTable = fs.readFileSync('./table.csv', 'utf8') //reads data from csv and gives a string
 let arr: string[] = stringFromTable.split('\r\n') // splits a string from csv to an array, by lines
 let header = arr[0].split(',') // defines a header of csv
 
@@ -16,6 +16,8 @@ for(let i = 1; i < arr.length; i++){
 
 console.log(finalArrayOfObjects)
 
-let blabla = finalArrayOfObjects.map(async (x) => {return x.FirstName})
+let blabla = finalArrayOfObjects.map((x) => {
+    return x.FirstName
+})
 
 console.log(blabla)
