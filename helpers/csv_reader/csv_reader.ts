@@ -1,22 +1,25 @@
 import * as fs from 'fs'
 
-export class CSVreader{
+export class CSVreader {
     pathToFile: string
 
-    constructor(pathToFile: string){
-        this.pathToFile = pathToFile
-    }
-    
     // reads data from csv to string
-    stringFromTable: string = fs.readFileSync(this.pathToFile, 'utf8') 
+    stringFromTable: string 
     // splits a string from csv to an array, by lines
-    arrayOfLinesFromTable: string[] = this.stringFromTable.split('\r\n')
+    arrayOfLinesFromTable: string[]
     // defines a header of csv
-    header: string[] = this.arrayOfLinesFromTable[0].split(',')
+    header: string[] 
+
+    constructor(pathToFile: string) {
+        this.pathToFile = pathToFile
+        this.stringFromTable = fs.readFileSync(this.pathToFile, 'utf8')
+        this.arrayOfLinesFromTable = this.stringFromTable.split('\r\n')
+        this.header = this.arrayOfLinesFromTable[0].split(',')
+    }
 
     formArrayOfObjects() {
         let finalArrayOfObjects = []
-        for(let i = 1; i < this.arrayOfLinesFromTable.length; i++){
+        for (let i = 1; i < this.arrayOfLinesFromTable.length; i++) {
             let dataArray = this.arrayOfLinesFromTable[i].split(',')
             let object = {}
             dataArray.map((eachStringInDataArray, index) => {
