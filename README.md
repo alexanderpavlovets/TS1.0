@@ -14,8 +14,9 @@
 
 ### ToDo list
 - learn about npm - what is package, how to make my helpers to be packages, for correct import of them (not with relative path)
+- learn about `${}` constuction 
 - Connect a reported to the lib
-- Refactor of DB and CSV helpers - rewrite for classes, as they should be. 
+- Refactor of DB and CSV helpers - rewrite for classes, as they should be. Only a DB helper - class, reader - just function 
 - Done: Add functionality to read a .csv files
 - Done: learn how to create ReadMe structure for GitHub. Rewrite this file 
 - Done: import and export. Modules in general. 

@@ -12,6 +12,7 @@ class User{
     }
 }
 
+
 export function getUsersFromCSV(pathToFile: string): User[] {
     let linesOfGivenCSV: string[] = fs.readFileSync(pathToFile, 'utf8').split('\r\n')
     //console.log('got these lines: '+linesOfGivenCSV)
