@@ -29,6 +29,7 @@ importedFunctionFromModuleThatHasDefaultExport()
 
 // import of the module, that isn't export anything:
 import './moduleWithSideEffect'
+console.log(i)
 
 
 //import from module, that re-exporting variables

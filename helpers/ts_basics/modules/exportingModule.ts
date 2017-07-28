@@ -15,3 +15,5 @@ export const exportedVariableThatWillBeRenamed: string = 'I am a variable that i
 const variableA: string = 'I am variableA, but my export file renamed me'
 export {variableA as variableB} 
 
+
+

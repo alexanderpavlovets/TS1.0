@@ -1,16 +1,11 @@
-import {CSVreader} from '../helpers/csv_reader/csv_reader'
+import {getUsersFromCSV } from '../helpers/csv_reader/csv_reader'
 
+//console.log(getUsersFromCSV('../test_data/table.csv'))
 
+let users = getUsersFromCSV('../test_data/users.csv')
+console.log(users)
 
-let path = '../test_data/table.csv'
-function showMeCSV(){   
-    let reader = new CSVreader(path)
-    console.log(reader.formArrayOfObjects())
-}
-showMeCSV()
-
-// let path = '../test_data/table.csv'
-// let reader = new CSVreader(path)
-// let obj = reader.formArrayOfObjects()
-// console.log(obj)
-// console.log(obj[0])
+let alexUser = users.filter((user) => {
+    return user.firstName === 'Alex'
+})
+console.log(alexUser)
