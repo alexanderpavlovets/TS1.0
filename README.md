@@ -11,10 +11,12 @@
 * Files are compiled automatically before `npm test`
 * According to gitignore file - no .js .map.js files are in the repo
 * To hide all compilled .js and .map.js files in VSCode, please read this [topic](https://stackoverflow.com/questions/31587949/hide-js-map-files-in-visual-studio-code)
+* pay attention to path in csv_test file. It is different, if run from tractor/node itself
 
 ### ToDo list
 - learn about npm - what is package, how to make my helpers to be packages, for correct import of them (not with relative path)
-- learn about `${}` constuction 
+- learn about `${}` constuction
+- Add quokka, auto import plugins - may have mistakes in spelling :) 
 - Connect a reported to the lib
 - Refactor of DB and CSV helpers - rewrite for classes, as they should be. Only a DB helper - class, reader - just function 
 - Done: Add functionality to read a .csv files

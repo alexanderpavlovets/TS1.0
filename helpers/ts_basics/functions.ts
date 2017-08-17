@@ -22,7 +22,7 @@ function getSum2(num1: any, num2: any): number {
 }
 
 
-// function can return nothing - void. Try to add a type for return statement: 
+// function can return nothing - void. Try to add any data for return statement: 
 function myVoidFunction(): void {
     return
 }
